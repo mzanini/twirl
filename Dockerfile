@@ -1,6 +1,6 @@
 FROM node:12.16.1
 
-RUN apt-get update && apt-get install -y libnss3-dev libgtk-3-0 libxss1 libasound2
+RUN apt-get update && apt-get install -y libnss3-dev libgtk-3-0 libxss1 libasound2 libcanberra-gtk-module libcanberra-gtk3-module
 
 WORKDIR /app/
 

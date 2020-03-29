@@ -1,0 +1,26 @@
+# builds
+build
+dist
+
+# misc
+.DS_Store
+
+# dependencies
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+node_modules
+
+# editor droppings
+.idea
+jsconfig.json
+.vscode
+.vs
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Git
+.git
+.gitignore

@@ -4,9 +4,8 @@
   "description": "Rol die",
   "version": "0.0.0",
   "private": true,
-  "author": "Marco Zanini <chetto87@gmail.com>",
-  "copyright": "© 2017, Gumby inc.",
-  "homepage": "http://example.com",
+  "author": "Marco Zanini <chetto87+twirl@gmail.com>",
+  "copyright": "© 2020, Marco Zanini",
   "main": "app/background.js",
   "build": {
     "appId": "com.example.twirl",

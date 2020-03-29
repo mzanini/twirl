@@ -11,7 +11,7 @@ USER node
 
 COPY --chown=node package.json /app/
 
-RUN npm install
+RUN yarn install
 
 COPY ./ /app/
 

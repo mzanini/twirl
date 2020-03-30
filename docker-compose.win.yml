@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  twirl:
+    image: electronuserland/builder:wine-mono
+    container_name: twirl-builder
+    volumes:
+      - .:/project
+      - /project/node_modules # prevents the container from polluting local directory

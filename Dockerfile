@@ -11,8 +11,8 @@ USER node
 
 COPY --chown=node package.json /app/
 
-RUN yarn install
+RUN yarn
 
 COPY ./ /app/
 
-CMD ["npm", "start"]
+CMD ["yarn", "start"]
